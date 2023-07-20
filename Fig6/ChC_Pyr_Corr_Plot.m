@@ -1,6 +1,6 @@
 %% Cumulative probability of Correlations between ChC and M2 neurons
 % Kanghoon Jung, Kwon Lab, Neuroscience, Johns Hopkins Univeristy, 2023
-Base_folder = 'C:\Users\jungk\Google Drive\[Kwon Lab @ MPFI]\Project #3 - ChC\Manuscript\Working manuscript\Nat Neurosci version\Editing\Code_KJ'
+Base_folder = pwd; % working directory which contains folders for codes and figure dataset
 cd(Base_folder)
 cd('Fig_data\ChC_fG6s')
 Data = xlsread('ChC_Pyr_Corr.xlsx');

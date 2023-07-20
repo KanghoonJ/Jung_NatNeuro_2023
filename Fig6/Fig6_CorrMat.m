@@ -2,7 +2,7 @@
 % Kanghoon Jung, Kwon Lab, Neuroscience, Johns Hopkins University, 2023
 close all
 clear all
-Base_folder = 'C:\Users\jungk\Google Drive\[Kwon Lab @ MPFI]\Project #3 - ChC\Manuscript\Working manuscript\Nat Neurosci version\Editing\Code_KJ\';
+Base_folder = pwd; % working directory which contains folders for codes and figure dataset
 cd(Base_folder)
 cd('Fig_data\ChC_fG6s')
 load('Fig_corr_mat_db.mat')

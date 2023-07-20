@@ -2,7 +2,7 @@
 % Kanghoon Jung, Kwon Lab, Neuroscience, Johns Hopkins University, 2023
 close all
 clear all
-% Base_folder 
+Base_folder = pwd; % working directory which contains folders for codes and figure dataset
 cd(Base_folder)
 load('Fig_data\ChC_TeTxLC\Fig_XCorr_DFoF_db.mat')
 

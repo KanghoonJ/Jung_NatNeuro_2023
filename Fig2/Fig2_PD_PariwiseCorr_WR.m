@@ -1,9 +1,8 @@
 %% Pairwise correlation of the activity of pairs of neurons as a function of difference in their preferred directions 
 % Kanghoon Jung, Kwon Lab, Neuroscience, Johns Hopkins University, 2023
-
 clear all
 close all
-% Base_folder 
+Base_folder = pwd; % working directory which contains folders for codes and figure dataset
 cd(Base_folder)
 % Load data
 load('Fig_data\WT_Exp\Fig_pairwise_corr_table_db.mat')

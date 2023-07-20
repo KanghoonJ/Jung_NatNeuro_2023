@@ -3,7 +3,7 @@
 
 clear all
 close all
-% Base_folder 
+Base_folder = pwd; % working directory which contains folders for codes and figure dataset
 cd(Base_folder)
 % Load data
 load('Fig_data\ChC_TeTxLC\Fig_pairwise_corr_table_db.mat')
